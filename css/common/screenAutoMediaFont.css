@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+*     根据移动端不同屏幕尺寸设置字体大小响应式自适应样式
+*/
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media screen and (width: 768px) {
+  html {
+    font-size: 38.4px;
+  }
+}
+@media screen and (width: 1024px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+
+/*# sourceMappingURL=screenAutoMediaFont.css.map */
